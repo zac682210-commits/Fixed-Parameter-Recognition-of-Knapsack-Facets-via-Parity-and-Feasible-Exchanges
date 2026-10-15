@@ -1,0 +1,51 @@
+{
+  "queries": [
+    "\"knapsack\" \"facet recognition\" \"fixed-parameter\"",
+    "\"knapsack\" \"parity\" \"exchange\" \"facet\"",
+    "\"The Complexity of Recognizing Facets for the Knapsack Polytope\" algorithm FPT"
+  ],
+  "date": "2026-10-13",
+  "results": [
+    {
+      "title_and_url": "The precedence constrained knapsack problem (https://www.sciencedirect.com/science/article/pii/S0166218X15002462)",
+      "ref": "turn270search0"
+    },
+    {
+      "title_and_url": "A Column-Generation Approach to the Multiple Knapsack ... (https://www.researchgate.net/publication/220668769_A_Column-Generation_Approach_to_the_Multiple_Knapsack_Problem_with_Color_Constraints)",
+      "ref": "turn270search1"
+    },
+    {
+      "title_and_url": "Separating maximally violated inequalities (https://mgoycool.github.io/papers/15espinoza_dam.pdf)",
+      "ref": "turn270search2"
+    },
+    {
+      "title_and_url": "A Heuristic Algorithm for the General Nonlinear Separable ... (https://www.academia.edu/266768/A_Heuristic_Algorithm_for_the_General_Nonlinear_Separable_Knapsack_Problem)",
+      "ref": "turn270search3"
+    },
+    {
+      "title_and_url": "On the H-Free Extension Complexity of the TSP (https://arxiv.org/html/1506.08311v2)",
+      "ref": "turn270search4"
+    },
+    {
+      "title_and_url": "Upgrading edges in the Graphical TSP - RiuNet (https://riunet.upv.es/bitstreams/670781d7-556d-4551-bb6f-2b40c0d527a1/download)",
+      "ref": "turn270search5"
+    },
+    {
+      "title_and_url": "Facets of Neural Network Complexity (https://d-nb.info/1254307303/34)",
+      "ref": "turn270search6"
+    },
+    {
+      "title_and_url": "Multi-Level Optimization Problems for Kidney Exchange (https://research.tue.nl/files/313512398/20231215_Blom_hf.pdf)",
+      "ref": "turn270search7"
+    },
+    {
+      "title_and_url": "The Complexity of Recognizing Facets for the Knapsack Polytope (https://arxiv.org/abs/2211.03311)",
+      "ref": "turn270academia9"
+    },
+    {
+      "title_and_url": "Une approche polyédrale pour le problème du double ... (https://theses.hal.science/tel-02101746v1/document)",
+      "ref": "turn270search8"
+    }
+  ],
+  "assessment": "Only original Chen–Zhu article was directly relevant in this final targeted query batch; other results were irrelevant or different models. No matching later FPT solution located; this does not establish absence."
+}

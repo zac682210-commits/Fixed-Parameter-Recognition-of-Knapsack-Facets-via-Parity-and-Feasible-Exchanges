@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "seed": 341326,
+  "instances": 1350,
+  "parity_classes": 1473,
+  "pairs": 0,
+  "midpoint_forced_cuts": 0,
+  "elapsed_seconds": 0.462997724996967
+}

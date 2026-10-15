@@ -1,0 +1,75 @@
+{
+  "problem_id": "W4416295153_p0",
+  "paper_id": "W4416295153",
+  "source_paper": "W4416295153",
+  "source_paper_title": "The Complexity of Recognizing Facets for the Knapsack Polytope",
+  "source_paper_url": "https://doi.org/10.1287/moor.2024.0481",
+  "source_paper_authors": [
+    "Rui Chen",
+    "Haoran Zhu"
+  ],
+  "source_paper_journal": "Mathematics of Operations Research",
+  "source_paper_publication_year": 2025,
+  "source_paper_bibtex": "@article{Chen_2025, title={The Complexity of Recognizing Facets for the Knapsack Polytope}, ISSN={1526-5471}, url={http://dx.doi.org/10.1287/moor.2024.0481}, DOI={10.1287/moor.2024.0481}, journal={Mathematics of Operations Research}, publisher={Institute for Operations Research and the Management Sciences (INFORMS)}, author={Chen, Rui and Zhu, Haoran}, year={2025}, month=nov }",
+  "problem_index": 0,
+  "pipeline_generated_at_utc": "2026-04-17T17:04:08.300058+00:00",
+  "export_mode": "unverified",
+  "context": "Page 16, Section 5 (Concluding Remarks)\n\nIt is still open whether it can be done in time \\(f(K)\\cdot \\mathrm{poly}(n)\\) where \\(f\\) is some computable function independent of \\(n\\), i.e., whether the knapsack facet recognition problem is fixed-parameter tractable.",
+  "title": "Fixed-parameter tractability of knapsack facet recognition by distinct coefficients parameter",
+  "background_latex": "Let \n\\[Q:=\\{x\\in\\{0,1\\}^n: a^\\top x\\le b\\}\\]\nbe a (0--1) knapsack set with \\(a\\in\\mathbb{N}^n\\) and \\(b\\in\\mathbb{N}\\) such that \\(\\max_i a_i\\le b\\), and let \\(P:=\\mathrm{conv}(Q)\\) be the associated knapsack polytope, which is then full-dimensional.\n\nConsider a linear inequality\n\\[\\alpha^\\top x \\le \\beta\\]\nwith \\((\\alpha,\\beta)\\in\\mathbb{Z}^{n+1}_+\\) (componentwise nonnegative integers). Let\n\\[K := |\\alpha|_+ := \\bigl|\\{\\alpha_i : \\alpha_i>0,\\ i\\in[n]\\}\\bigr|\\]\nbe the number of distinct positive coefficient values appearing among \\(\\alpha_1,\\dots,\\alpha_n\\).\n\nDefine the decision problem \\(\\text{KNAPSACK\\_FACETS}\\): given \\((a,b,\\alpha,\\beta)\\) as above, decide whether \\(\\alpha^\\top x\\le \\beta\\) defines a facet of \\(P\\) (i.e., it is valid for \\(P\\) and the face \\(\\{x\\in P: \\alpha^\\top x=\\beta\\}\\) has dimension \\(\\dim(P)-1\\)).\n\nThe paper shows that \\(\\text{KNAPSACK\\_FACETS}\\) is \\(\\mathrm{D}^p\\)-complete in general, and gives an XP-time algorithm parameterized by \\(K\\) that runs in time \\(n^{K+O(1)}\\) (assuming unit-cost arithmetic).",
+  "problem_definition_latex": "Design an algorithm that, given a knapsack polytope \\(P=\\mathrm{conv}(\\{x\\in\\{0,1\\}^n: a^\\top x\\le b\\})\\) with \\((a,b)\\in\\mathbb{N}^{n+1}\\) and an inequality \\(\\alpha^\\top x\\le \\beta\\) with \\((\\alpha,\\beta)\\in\\mathbb{Z}^{n+1}_+\\), decides whether \\(\\alpha^\\top x\\le \\beta\\) defines a facet of \\(P\\) in time\n\\[f(K)\\cdot \\mathrm{poly}(n),\\]\nwhere \\(K=|\\alpha|_+\\) is the number of distinct positive coefficient values in \\(\\alpha\\), and \\(f\\) is a computable function independent of \\(n\\).",
+  "latex": "Let \n\\[Q:=\\{x\\in\\{0,1\\}^n: a^\\top x\\le b\\}\\]\nbe a (0--1) knapsack set with \\(a\\in\\mathbb{N}^n\\) and \\(b\\in\\mathbb{N}\\) such that \\(\\max_i a_i\\le b\\), and let \\(P:=\\mathrm{conv}(Q)\\) be the associated knapsack polytope, which is then full-dimensional.\n\nConsider a linear inequality\n\\[\\alpha^\\top x \\le \\beta\\]\nwith \\((\\alpha,\\beta)\\in\\mathbb{Z}^{n+1}_+\\) (componentwise nonnegative integers). Let\n\\[K := |\\alpha|_+ := \\bigl|\\{\\alpha_i : \\alpha_i>0,\\ i\\in[n]\\}\\bigr|\\]\nbe the number of distinct positive coefficient values appearing among \\(\\alpha_1,\\dots,\\alpha_n\\).\n\nDefine the decision problem \\(\\text{KNAPSACK\\_FACETS}\\): given \\((a,b,\\alpha,\\beta)\\) as above, decide whether \\(\\alpha^\\top x\\le \\beta\\) defines a facet of \\(P\\) (i.e., it is valid for \\(P\\) and the face \\(\\{x\\in P: \\alpha^\\top x=\\beta\\}\\) has dimension \\(\\dim(P)-1\\)).\n\nThe paper shows that \\(\\text{KNAPSACK\\_FACETS}\\) is \\(\\mathrm{D}^p\\)-complete in general, and gives an XP-time algorithm parameterized by \\(K\\) that runs in time \\(n^{K+O(1)}\\) (assuming unit-cost arithmetic).\n\nDesign an algorithm that, given a knapsack polytope \\(P=\\mathrm{conv}(\\{x\\in\\{0,1\\}^n: a^\\top x\\le b\\})\\) with \\((a,b)\\in\\mathbb{N}^{n+1}\\) and an inequality \\(\\alpha^\\top x\\le \\beta\\) with \\((\\alpha,\\beta)\\in\\mathbb{Z}^{n+1}_+\\), decides whether \\(\\alpha^\\top x\\le \\beta\\) defines a facet of \\(P\\) in time\n\\[f(K)\\cdot \\mathrm{poly}(n),\\]\nwhere \\(K=|\\alpha|_+\\) is the number of distinct positive coefficient values in \\(\\alpha\\), and \\(f\\) is a computable function independent of \\(n\\).",
+  "location_in_paper": "Page 16, Section 5 (Concluding Remarks)",
+  "open_problem_quote": "It is still open whether it can be done in time \\(f(K)\\cdot \\mathrm{poly}(n)\\) where \\(f\\) is some computable function independent of \\(n\\), i.e., whether the knapsack facet recognition problem is fixed-parameter tractable.",
+  "area": "knapsack polytope facets",
+  "keywords": [
+    "knapsack polytope",
+    "facet recognition",
+    "parameterized complexity",
+    "fixed-parameter tractability",
+    "Dp-completeness",
+    "polyhedral combinatorics"
+  ],
+  "counterexample_suitability": "low",
+  "counterexample_suitability_rationale": "The statement is an algorithmic-existence question (whether an FPT algorithm exists) rather than a universal inequality that admits small explicit counterexamples. Evidence would likely come from complexity-theoretic reductions or algorithm design, not from searching finite instances.",
+  "alphaevolve_suitability": "medium",
+  "alphaevolve_suitability_rationale": "One can represent candidate algorithms as code and benchmark runtime/scaling on families of synthetic instances with fixed \\(K\\), but the key hurdle is proving worst-case \\(f(K)\\) dependence or establishing hardness (e.g., W[1]-hardness), which is not directly captured by empirical fitness signals. Still, automated exploration could generate promising dynamic programming formulations or kernelization ideas for small \\(K\\).",
+  "extraction_model": "gpt-5.2",
+  "extraction_reasoning_effort": null,
+  "verification": {
+    "is_open": true,
+    "unverified": true,
+    "notice": "Generated from the paper text only and not independently verified as still open.",
+    "methods_used": [],
+    "source": null,
+    "model": null,
+    "total_cost_usd": 0.0
+  },
+  "literature_review": {
+    "method": "forward_citation_review",
+    "model": "gpt-5.2",
+    "importance": 1,
+    "difficulty": 1,
+    "synthesis": "No relevant Scholar-organic forward citations were available for this problem. The forward-citation review therefore cannot identify follow-up work that resolves or materially advances the problem.",
+    "total_cost_usd": 0.0,
+    "citations_analyzed": 0,
+    "sources": []
+  },
+  "costs": {
+    "extractor_total_cost_usd": 0.044611,
+    "verifier_total_cost_usd": 0.0,
+    "literature_total_cost_usd": 0.0,
+    "total_cost_usd": 0.044611
+  },
+  "provenance": {
+    "problem_source": "/project/caai_amzn_cmpr/efithian/llm-math/data/mor_past_year_problems/W4416295153/problems.json",
+    "verification_source": null,
+    "literature_source": "/project/caai_amzn_cmpr/efithian/llm-math/data_local/website_forward_citation_strict_reviews/W4416295153_p0_forward_citation_review.json"
+  },
+  "forward_citation_review": {
+    "run_id": "W4416295153_p0",
+    "citations_analyzed": 0,
+    "is_open": true,
+    "model": "gpt-5.2"
+  }
+}

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the accompanying research preprint."
+type: article
+title: "Fixed-Parameter Recognition of Knapsack Facets via Parity and Feasible Exchanges"
+authors:
+  - family-names: Lin
+    given-names: Zhiyan
+version: "0.1"
+date-released: "2026-10-13"
+abstract: "A fixed-parameter algorithm for binary knapsack facet recognition, parameterized by the number of distinct positive candidate coefficients, using parity pairing and feasible-exchange components."
+keywords:
+  - knapsack polytope
+  - facet recognition
+  - fixed-parameter tractability
+  - integer programming

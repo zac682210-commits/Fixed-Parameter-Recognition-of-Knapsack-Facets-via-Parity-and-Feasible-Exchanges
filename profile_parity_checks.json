@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "seed": 341327,
+  "instances": 460,
+  "parity_classes": 2521,
+  "nontrivial_parities": 1770,
+  "forced_cuts": 12803,
+  "affine_pieces": 16458,
+  "elapsed_seconds": 3.166412386999582
+}

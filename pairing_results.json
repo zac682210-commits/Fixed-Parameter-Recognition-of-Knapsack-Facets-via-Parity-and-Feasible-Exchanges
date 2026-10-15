@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "seed": 341329,
+  "endpoint_pairs": 500,
+  "cut_repartitions": 5039,
+  "only_one_feasible": 597,
+  "elapsed_seconds": 0.1586220949975541
+}
